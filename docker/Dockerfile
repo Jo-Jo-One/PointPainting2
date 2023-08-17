@@ -34,3 +34,4 @@ RUN git clone https://github.com/open-mmlab/mmsegmentation.git /mmsegmentation
 WORKDIR /mmsegmentation
 RUN git checkout main
 RUN pip install -e .
+WORKDIR ~
